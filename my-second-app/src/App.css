@@ -1,0 +1,78 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,100,102,1) 32%, rgba(9,124,120,1) 44%, rgba(9,121,116,1) 45%, rgba(0,212,255,1) 85%);
+}
+h1{
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline double;
+}
+.input{
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.input form input {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input form button {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+}
+.input form button:active{
+  background-color: #fff;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+.second {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10px; */
+}
+
+.border{
+  border: 5px solid black;
+  padding: 10px;
+  border-radius:10px ;
+  width: auto;
+  margin-top: 30px;
+}
+.second .border .Second1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.second .border .Second1 p {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+.second .border .Second1 img {
+  cursor: pointer;
+}
